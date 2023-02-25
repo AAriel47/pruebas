@@ -1,0 +1,82 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#lista>li:first-child{background-color: darkkhaki;
+					color:red;}
+ul li::selection{color: white;
+	background-color: black;
+}
+li:last-child{background-color:aqua;}
+ul:first-of-type{background-color:red;}
+ul:last-of-type{background-color:red;}
+ul>li:nth-of-type(odd){background-color:red;}**/
+ul li:nth-of-type(1n){background-color:red ;
+font-size: 24px;
+	list-style-type: none;
+	list-style-image: url("../css/pp.gif");
+	list-style-position:outside;}
+/*:root{background-color:red;
+	color:green;}¨*/
+ul:not(.miformato){background-color:yellow;}
+@media (min-width:340px) and (max-width:480px) {.miformato{
+    font-size: 24px;
+    color: green;
+    background-color: brown;
+}
+}
+#nue{color:black;}
+.col{
+    text-decoration: overline;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin-top: 125px;
+    margin-right: 125px;
+    margin-bottom: 125px;
+    margin-left: 125px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    padding-left: 75px;
+    top: auto;
+    padding-right: 75px;
+    border-radius: 61px;
+    border-left: 9px solid #460405;
+    border-right: 28px double #6CEC66;
+    border-bottom: 9px double #C5ED10;
+    border-top: 9px double #0D0C0C;
+    background-color: #F58284;
+    -webkit-box-shadow: 0px 0px #DBF36E;
+    box-shadow: 0px 0px #DBF36E;
+}
+p {
+    font-size: 24px;
+    color: red;
+    background-color: yellow;
+    text-decoration: overline;
+    text-align: justify;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-variant: small-caps;
+    border-top-color: #EDF160;
+    /* [disabled]border-top-style: solid; */
+    border-top-width: 15px;
+}
+time{
+    margin-top: 70px;
+    padding-top: 18px;
+    color: black;
+    font-size: 34px;
+    text-align: center;
+    text-decoration: underline;
+}
+header h1,h3{
+    color: green;
+    margin-bottom: -19px;
+    padding-bottom: 0px;
+    border: 6px double #150EB7;
+    background-color: #49E180;
+    background-position: 36% 106%;
+    -webkit-box-shadow: 8px 17px #D94649;
+    box-shadow: 8px 17px #D94649;
+}

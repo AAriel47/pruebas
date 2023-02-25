@@ -1,0 +1,53 @@
+@charset "utf-8";
+/* CSS Document */
+a:link{color: fuchsia;}
+a:visited{color:blue;}
+a:hover{color: green;}
+a:active{color:red;}
+a{text-decoration: none;}
+.menu1{
+		list-style-type: none;
+		margin: 0px;
+		padding: 0px;}
+.vertical a{display: block;
+			width: 200px;
+			color:aliceblue;
+			background-color: aqua;
+			text-align:center;
+	padding: 4px;}
+.vertical a:hover, .vertical a:active{background-color: gold;}
+center{color: red;
+		font-family:Arial Black;
+		font-size: 54px;
+		text-align:left;
+		text-decoration: underline;}
+.par{color: green;
+		font-family: Gotham;
+		font-size: 44px;
+		text-align: center;
+		text-decoration:underline;}
+#impar{color: blue;
+		font-size:54px;}
+
+h1.par{color: yellow;
+		font-family:gil sans;
+		text-align: center;
+		text-decoration: underline;
+		font-size: 58px;}
+body{background-color: gray}
+
+ul, ol.color{color: yellow;
+		font-family: Gotham;
+	font-size: 44px;}
+
+
+.col{color:darkorange;
+font-family: Gotham;
+font-size: 48;
+text-decoration: underline;}
+ol.mat{color: mediumblue;
+		font-family: Gotham;
+		font-size: 48px;
+	list-style-type: decimal; 
+	list-style-position:inside;}
+

@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* CSS Document */
+#forma{color: red;
+	text-align: center;
+	text-decoration: underline;
+	font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";}
+.flauta{color:green;
+font-size:95px;}
+h3.flauta{color:red; text-align: center;}
+	h1.flauta{color:fuchsia;
+		font-size: 45px;
+	text-align: right;
+		}
+#pa{color: crimson;
+text-align: center;
+text-decoration: overline;}
+ol>li:nth-child(odd){background-color:red; }
+.uno {color:red;
+	font-size: 30px;}
+	
+	.dos{text-decoration:underline;}
+.flauta, center{text-align: right; color: blue;}

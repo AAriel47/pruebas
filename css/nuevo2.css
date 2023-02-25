@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+.pdea{text-align: center;}
+a[href*="ejercios"]{color: blue;}
+a[target$="blank"]{color: yellow;
+font-size:50px;
+text-transform: uppercase;}
+p>a[href^="mailto:"]{text-decoration:underline;
+text-transform: uppercase;
+	font-size: 45px;
+color: red; }
+/*a:link{color: fuchsia;}
+a:visited{color:blue;}
+a:hover{color: green;}
+a:active{color:red;}
+a{text-decoration: none;}*/
+center{color:red;
+	font-size: 50px;}
+.menu1{
+		list-style-type: none;
+	color:rgba(181,25,28,0.10)
+		margin: 0px ;
+		padding: 0px;}
+.vertical a{display: block;
+			width: 200px;
+			color:aliceblue;
+			background-color: blue;
+			text-align:center;
+	padding: 4px;}
+.vertical a:hover, .vertical a:active{background-color: sandybrown;}
+center{color: red;
+		font-family:Arial Black,Sans-serif;
+	font-size: 54px;
+	font-style:italic;
+	font-weight: bold;
+	font-variant: small-caps
+			text-align:left;
+		text-decoration: underline;
+text-transfor:uppercase;
+text-indent: 10px;}
+.par{color: green;
+		font-family: Gotham;
+		font-size: 44px;
+		text-align: center;
+		text-decoration:underline;}
+#impar{color: blue;
+		font-size:54px;}
+
+h1.par{color: yellow;
+		font-family:gil sans;
+		text-align: center;
+		text-decoration: underline;
+		font-size: 58px;}
+body{background-color: gray}
+
+ul, ol.color{color: yellow;
+		font-family: Gotham;
+	font-size: 44px;}
+
+
+.col{color:darkorange;
+font-family: Gotham;
+font-size: 48;
+text-decoration: underline;}
+ol.mat{color: mediumblue;
+		font-family: Gotham;
+		font-size: 48px;
+	list-style-type: decimal; 
+	list-style-position:inside;}
+
+/*a[href*="google.com"]{color:red;}
+a[href*="spaiderman.com"]{color:yellow;}
+a[href^="mailto:"]{color: rgba(12,140,35,1.00);}*/
+h1~h2{text-align: center;
+	word-wrap: break-word;
+color: green;}
+center~h2{color:pink;}
