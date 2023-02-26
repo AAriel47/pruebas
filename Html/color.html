@@ -6,6 +6,12 @@
 <!--meta:vp(tabulador)-->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 <link href="color.css" rel="stylesheet" type="text/css">
+	<!--<script>
+		function cambios(){
+			document.body.style.backgroundColor="yellow";
+		}
+		document.addEventListener("click",cambios);
+	</script>-->
 </head>
 
 <body>
@@ -26,8 +32,10 @@
 	<!----onClick="var parrafo = document.getElementById('nue'); console.log(parrafo.dataset.autor)";/-->
 	
 	<p id="nue" data-autor="alejandro" onClick="alert(document.getElementById('nue').dataset.autor);">La <i>nueva</i>casa está ocupada<em>por todos</em>, las familias<b>de los novios</b> estan de fiesta por la nueva vida que trajeron<strong>al mundo</strong></p>
-	<p><data value = "69" onClick="alert(document.getElementsByTagName('data').value=
-		'33');">pose</data></p>
+	<p onclick="document.body.style.backgroundColor = "#0000FF";"><data value = "69" onClick="alert(document.getElementsByTagName('data').value=
+		'33');">pose</data>ola</p>
+	
+	<p onclick="alert('hola');document.body.style.backgroundColor = '#0000FF';">hola que tal</p>
 <div>
 	</div>	
 	<ul class="miformato">
