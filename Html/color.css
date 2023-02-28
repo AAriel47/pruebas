@@ -10,6 +10,14 @@ li:last-child{background-color:aqua;}
 ul:first-of-type{background-color:red;}
 ul:last-of-type{background-color:red;}
 ul>li:nth-of-type(odd){background-color:red;}**/
+.colu{column-count:3;
+	column-width: auto;
+	column-gap: 30px;
+	column-rule: solid #E90E11 3px;
+	word-wrap:break-word;}
+@font-face{font-family: brus;
+	src: url("../font/BRUSHSCI.TTF") format("truetype");}
+.color{font-family: brus;}
 ul li:nth-of-type(1n){background-color:red ;
 font-size: 24px;
 	list-style-type: none;
@@ -42,7 +50,7 @@ ul:not(.miformato){background-color:yellow;}
     padding-right: 75px;
     border-radius: 61px;
     border-left: 9px solid #460405;
-    border-right: 28px double #6CEC66;
+    border-right: 9px double #6CEC66;
     border-bottom: 9px double #C5ED10;
     border-top: 9px double #0D0C0C;
     background-color: #F58284;
